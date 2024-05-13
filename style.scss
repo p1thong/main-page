@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'font';
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+    li {
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 400;
+    }
+    a:hover {
+        transition: .2s ease-in-out;
+        color: red;
+    }
+}
+
+.center-content {
+    .center-right-content {
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .bright-future-title {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 1;
+            letter-spacing: -2px;
+        }
+        .read-more {
+            width: fit-content;
+            padding: 10px 25px;
+            margin-top: 30px;
+            background-color: hsl(5, 85%, 63%);
+            color: hsl(36, 100%, 99%);
+            letter-spacing: 3px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            -moz-box-shadow: 0 0 3px #ccc;
+            -webkit-box-shadow: 0 0 3px #ccc;
+            box-shadow: 0 0 3px #ccc;
+            transition: .2s linear;
+        }
+        .read-more:hover {
+            background-color: hsl(36, 100%, 99%);
+            color: hsl(5, 85%, 63%);
+            transition: .2s linear;
+        }
+        .read-more:active {
+            background-color: hsl(30, 7%, 84%);
+        }
+        .bright-future-content {
+            p {
+                text-align: justify;
+                font-size: 15px;
+            }
+        }
+    }
+    .center-left-content {
+        background-color: hsl(240, 100%, 5%);
+        .new {
+            color: hsl(35, 77%, 62%);
+            font-size: 30px;
+            font-weight: 600;
+            padding-top: 20px;
+        }
+        .new-1, .new-2, .new-3 {
+            color: hsl(36, 100%, 99%);
+            padding: 20px 0;
+            margin: auto 0;
+            p {
+                font-weight: 100;
+                font-size: 13px;
+                margin: 0;
+            }
+        }
+        .new-2 {
+            border-top: .5px solid;
+            border-bottom: .5px solid;
+            margin: 35px 0;
+            padding: 35px 0;
+        }
+    }
+}
+
+.bottom-content {
+    margin-top: 60px;
+    
+    h4 {
+        font-weight: 700;
+        color: #c6c5cf;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
+        color: hsl(240, 100%, 5%);
+    }
+}
